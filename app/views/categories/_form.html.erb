@@ -1,0 +1,6 @@
+<%= form_for([@user, @user.categories.build]) do |f| %>
+  <%= f.label "Category Name" %>
+  <%= f.text_field :name %>
+  <%= f.submit %>
+<% end %>
+
